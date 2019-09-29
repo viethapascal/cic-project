@@ -18,7 +18,7 @@ for a specific day by parsing parameter to run.
 ./install_dependencies.sh
 ```
 <br/>
-2. You must install postgres on your machine and update information to **configuration.toml** file. The file may look like this:
+2. You must install postgres on your machine and update information to configuration.toml file.The file may look like this:
 
 ```bash
 db_host = "host:port"
