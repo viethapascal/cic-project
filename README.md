@@ -21,12 +21,13 @@ Golang packages: <br/>
 The application wil take about 500ms - 1s to complete. By default, it will result next 14 days weather forecast, you can also query
 for a specific day by parsing parameter to run.
 ## How to run the app
-1. Install dependencies by this command (execution permission may be needed to run the script):
+1. Pull lastest code from this repository to $GOPATH on your machine.
+2. Install dependencies by this command (execution permission may be needed to run the script):
 ```bash
 ./install_dependencies.sh
 ```
 <br/>
-2. You must install postgres on your machine and update information to configuration.toml file.The file may look like this:
+3. You must install postgres on your machine and update information to configuration.toml file.The file may look like this:
 
 ```bash
 db_host = "host:port"
@@ -35,7 +36,7 @@ db_password = "postgre password"
 db_name = "database name"
 ```
 <br/>
-3. Get weather forecast for next 14 days:
+4. Get weather forecast for next 14 days:
 
 ```bash
 ./start_app.sh
@@ -63,7 +64,7 @@ The result will be somethings like this, you can also find the detail in table _
 
 ```
 <br>
-4. Get detail weather forecast for specific day by parsing day pamrameter with yyyy-mm-dd format:
+5. Get detail weather forecast for specific day by parsing day pamrameter with yyyy-mm-dd format:
 
 ```bash
 ./start_app.sh 2019-10-01
