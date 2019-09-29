@@ -1,4 +1,4 @@
-#**Weather forecast crawler from _bbc.com_**
+# Weather forecast crawler from _bbc.com
 
 This is a simple app that craw weather forecast from bbc.com and store to db 
 
@@ -12,7 +12,6 @@ It uses some Golang packages: <br/>
 
 The application wil take about 500ms - 1s to complete. By default, it will result next 14 days weather forecast, you can also query
 for a specific day by parsing parameter to run.
-
 ## How to run the app
 1. Install dependencies by this command (execution permission may be needed to run the script):
 ```bash
