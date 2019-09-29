@@ -6,9 +6,17 @@ This is a simple app that craw weather forecast from bbc.com and store to db
 
 This app will call directly to bbc api to get the summary weather forecast and store to postgresql db (table day_reports by default).<br>
 
-It uses some Golang packages: <br/>
+Environments:
+* Go 1.12.7
+* MacOS 10.13.6
+* IDE GoLand
+* PostgreSQL 9.6.10
+<br/>
+
+Golang packages: <br/>
 * [go-pg](https://github.com/go-pg/pg): a Golang package implement a PostgreSQL client, it also support ORM.
 * [gocolly](https://github.com/gocolly/colly): this package is used for scraping purpose
+
 
 The application wil take about 500ms - 1s to complete. By default, it will result next 14 days weather forecast, you can also query
 for a specific day by parsing parameter to run.
