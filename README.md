@@ -1,4 +1,4 @@
-# Weather forecast crawler from _bbc.com
+# Weather forecast crawler from bbc.com
 
 This is a simple app that craw weather forecast from bbc.com and store to db 
 
